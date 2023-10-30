@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<style>
+    .navbar-toggler {
+       border: none !important;
+    }
+  
+    .navbar-toggler:focus{
+        box-shadow: none !important;
+    }
+  
+    .navbar-collapse {
+      flex-grow: 0;
+    }   
+  
+    /* section{
+      margin-bottom: 18px;
+    } */
+    
+    #section1{
+        background-image: url("./img/bakcgroundBlur-Dark.jpg");
+        background-size: cover;
+        padding-top: 6rem;
+        padding-bottom: 2rem;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+    }
+  
+    #section2{
+        min-height: 50vh;
+        /* padding: 5rem 7%; */
+  
+        /* padding: 7%; */
+        padding-top: 70px;
+        padding-left: 30px;
+        padding-right: 30px;
+        /* padding-bottom: 0; */
+    }
+  
+    #section3{
+        min-height: 70vh;
+        /* padding: 7%; */
+        padding-top: 70px;
+        padding-left: 30px;
+        padding-right: 30px;
+  
+        padding-bottom: 7%;
+    }
+  
+    #section4{
+        /* background-image: url("./img/bg-footer.png");
+        background-size: cover; */
+  
+        min-height: 40vh;
+        /* padding: 7%; */
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+  
+        padding-bottom: 7%;
+    }
+  
+    #section5{
+        /* background-image: url("./img/bg-footer.png");
+        background-size: cover; */
+  
+        min-height: 40vh;
+        /* padding: 7%; */
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+  
+        padding-bottom: 100px;
+    }
+  </style>
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top p-2">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white fw-bold" href="#section1">Fernando<span class="text-white bg-primary ms-1 shadow-lg" style="padding: 0px 5px 3px 5px; border-radius: 5px;">Medrano</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-list fs-2 text-white"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-white fw-semibold" aria-current="page" href="#section1">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fw-semibold" href="#section2">Competences</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fw-semibold" href="#section3">Knowledge</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fw-semibold" href="#section4">Experience</a>
+              </li>        
+              <li class="nav-item">
+                <a class="nav-link text-white fw-semibold" href="#section5">Courses</a>
+              </li>  
+            </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+<body>
+    <section id="section1">  
+        <div class="col-12 text-center mb-4"> 
+          <h1 class="text-white fw-bold">Welcome!</h1>  
+          <h4 class="text-white fw-semibold">I'm Fernando Medrano</h1>
+          <h5 class="text-white fw-semibold">Software Developer Full Stack</h5>          
+        </div>    
+        <div class="col-12 d-flex justify-content-center mb-4">
+          <button class="btn border-light me-2 text-white fw-bold"><img src="./img/whatsapp.png" width="20"> Whatsapp</button>
+          <button class="btn border-light text-white fw-bold"><img src="./img/instagram.png" width="20"> Instagram</button>
+        </div> 
+        <div class="col-12 d-flex justify-content-center">       
+          <img src="./img/spanish.png" width="38" height="28"><span class="fw-bold text-white me-2">Spanish</span>       
+          <img src="./img/english.png" width="38" height="28"><span class="fw-bold text-white">English</span>
+        </div>
+    </section>
+   
+    <section id="section2">
+      <h3 class="text-primary fw-bold" style="border-left: 6px solid rgb(13,110,253); padding-left: 4px;">Competencias:</h3>
+      <div class="row g-3 mt-2">
+        <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-6">
+          <div class="card shadow-lg border-0">
+            <div class="card-body">
+                <div class="d-flex justify-content-center">
+                  <img src="./img/html.png" width="115" height="100"/>
+                </div>            
+                <div class="mt-3">
+                  <h6 class="text-center fw-bold">HTML</h6>
+                  <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated fw-semibold" style="width: 100%"></div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-6">
+          <div class="card shadow-lg border-0">
+            <div class="card-body">
+                <div class="d-flex justify-content-center">
+                  <img src="./img/css.png" width="105" height="100"/>
+                </div>            
+                <div class="mt-3">
+                  <h6 class="text-center fw-bold">CSS3</h6>
+                  <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated fw-semibold" style="width: 80%"></div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-6">
+          <div class="card shadow-lg border-0">
+            <div class="card-body">
+              <div class="d-flex justify-content-center">
+                <img src="./img/javascript.png" width="105" height="100"/>
+              </div>            
+              <div class="mt-3">
+                <h6 class="text-center fw-bold">Javascript</h6>
+                <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated fw-semibold" style="width: 80%"></div>
+                </div>
+              </div>
+          </div>
+          </div>
+        </div>
+
+        <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-6">
+          <div class="card shadow-lg border-0">
+            <div class="card-body">
+              <div class="d-flex justify-content-center">
+                <img src="./img/jquery.png" width="110" height="100"/>
+              </div>            
+              <div class="mt-3">
+                <h6 class="text-center fw-bold">Jquery</h6>
+                <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated fw-semibold" style="width: 100%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-6">
+          <div class="card shadow-lg border-0">
+            <div class="card-body">
+              <div class="d-flex justify-content-center">
+                <img src="./img/bootstrap.png" width="120" height="100"/>
+              </div>            
+              <div class="mt-3">
+                <h6 class="text-center fw-bold">Bootstrap 5</h6>
+                <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated fw-semibold" style="width: 100%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-6">
+          <div class="card shadow-lg border-0">
+            <div class="card-body">
+              <div class="d-flex justify-content-center">
+                <img src="./img/sql server.png" width="120" height="100"/>
+              </div>            
+              <div class="mt-3">
+                <h6 class="text-center fw-bold">SQL Server</h6>
+                <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated fw-semibold" style="width: 70%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-6">
+          <div class="card shadow-lg border-0">
+            <div class="card-body">
+              <div class="d-flex justify-content-center">
+                <img src="./img/csharp.png" width="110" height="100"/>
+              </div>            
+              <div class="mt-3">
+                <h6 class="text-center fw-bold">C#</h6>
+                <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated fw-semibold" style="width: 70%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-6">
+          <div class="card shadow-lg border-0">
+            <div class="card-body">
+              <div class="d-flex justify-content-center">
+                <img src="./img/react.png" width="110" height="100"/>
+              </div>            
+              <div class="mt-3">
+                <h6 class="text-center fw-bold">React</h6>
+                <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated fw-semibold" style="width: 40%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-6">
+          <div class="card shadow-lg border-0">
+            <div class="card-body">
+              <div class="d-flex justify-content-center">
+                <img src="./img/flutter.png" width="110" height="100"/>
+              </div>            
+              <div class="mt-3">
+                <h6 class="text-center fw-bold">Flutter</h6>
+                <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated fw-semibold" style="width: 30%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+    
+    <section id="section3">
+      <h3 class="text-primary fw-bold" style="border-left: 6px solid rgb(13,110,253); padding-left: 4px;">Knowledge:</h3>
+      <div class="row g-3 mt-2">     
+        <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+          <div class="card shadow-lg border-0">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 d-flex align-items-center justify-content-center">
+                  <img src="./img/github.png" width="115" height="120">
+                </div>
+                <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 mt-xxl-0 mt-xl-0 mt-lg-0 mt-md-2 mt-sm-2 mt-2">
+                  <span class="text-primary fw-bold mb-2">GitHub</span> 
+                  <label>I have experience using the github repository to make new changes, version control of an application, and hosting multiple projects.</label>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div> 
+
+        <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+          <div class="card shadow-lg border-0">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 d-flex align-items-center justify-content-center">
+                  <img src="./img/postman.png" width="115" height="120">
+                </div>
+                <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 mt-xxl-0 mt-xl-0 mt-lg-0 mt-md-2 mt-sm-2 mt-2">
+                  <span class="text-primary fw-bold mb-2">Postman</span> 
+                  <label>I have experience using the postman platform to check the operation of apis using its methods to test a service.</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+          <div class="card shadow-lg border-0">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 d-flex align-items-center justify-content-center">
+                  <img src="./img/netcore.png" width="130" height="120">
+                </div>
+                <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 mt-xxl-0 mt-xl-0 mt-lg-0 mt-md-2 mt-sm-2 mt-2">
+                  <span class="text-primary fw-bold mb-2">ASP.NET Core (MVC)</span> 
+                  <label>I have experience using asp.net core to create web applications using the architecture pattern (Model-View-Controller)</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+          <div class="card shadow-lg border-0">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 d-flex align-items-center justify-content-center">
+                  <img src="./img/api.png" width="140" height="120">
+                </div>
+                <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 mt-xxl-0 mt-xl-0 mt-lg-0 mt-md-S2 mt-sm-2 mt-2">
+                  <span class="text-primary fw-bold mb-2">API (REST)</span> 
+                  <label>I have experience consuming APIS services from Google, Paypal, Meta and creating authentication and maintenance web services.</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+          <div class="card shadow-lg border-0">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 d-flex align-items-center justify-content-center">
+                  <img src="./img/office.png" width="100" height="120">
+                </div>
+                <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 mt-xxl-0 mt-xl-0 mt-lg-0 mt-md-S2 mt-sm-2 mt-2">
+                  <span class="text-primary fw-bold mb-2">Office</span> 
+                  <label>I have experience using office applications Power Point (Advanced), Word (Advanced) and Excel (Intermediate)</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </section>
+
+    <section id="section4">
+      <h3 class="text-primary fw-bold" style="border-left: 6px solid rgb(13,110,253); padding-left: 4px;">Experience:</h3>
+      <div class="row g-3 mt-2">
+        <div class="col-xxl-6 col-lg-6 col-md-12">
+          <div class="card shadow-lg border-0">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-xxl-8 col-lg-12 mb-3">
+                  <h6 class="fw-bold">Web Design (Freelancer)</h6>
+                  <label>Theater System - Responsive Page</label>
+                </div>
+                <div class="col-xxl-4 col-lg-12">
+                    <span class="badge text-bg-primary shadow float-end">March 2022 - May 2022</span>                    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <div class="col-xxl-6 col-lg-6 col-md-12">
+          <div class="card shadow-lg border-0">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-xxl-8 col-lg-12 mb-3">
+                  <h6 class="fw-bold">Web Development - Front End (Freelancer)</h6>
+                  <label>Restaurant System - Inventory Module</label>
+                </div>
+                <div class="col-xxl-4 col-lg-12">
+                    <span class="badge text-bg-primary shadow float-end">June 2022 - September 2022</span>                    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <div class="col-xxl-6 col-lg-6 col-md-12">
+          <div class="card shadow-lg border-0">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-xxl-8 col-lg-12 mb-3">
+                  <h6 class="fw-bold">Web Development - Full Stack (Freelancer)</h6>
+                  <label>Electronic Billing System - Sales Module</label>
+                </div>
+                <div class="col-xxl-4 col-lg-12">
+                    <span class="badge text-bg-primary shadow float-end">June 2022 - September 2022</span>                    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <div class="col-xxl-6 col-lg-6 col-md-12">
+          <div class="card shadow-lg border-0">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-xxl-8 col-lg-12 mb-3">
+                  <h6 class="fw-bold">Web Development - Full Stack (Personal)</h6>
+                  <label>School Management System - Complete System</label>
+                </div>
+                <div class="col-xxl-4 col-lg-12">
+                    <span class="badge text-bg-primary shadow float-end">March 2023 - Project in Progress</span>                    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+
+
+      </div>
+    </section>
+
+    <section id="section5">
+      <h3 class="text-primary fw-bold" style="border-left: 6px solid rgb(13,110,253); padding-left: 4px;">Courses:</h3>
+      <div class="row g-3 mt-2">
+        <div class="col-xxl-4 col-lg-4 col-md-12">
+          <div class="card shadow-lg border-0">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-xxl-10 col-lg-10">
+                  <h6 class="fw-bold">Html - Css - JavaScript</h6>
+                </div>
+                <div class="col-xxl-2 col-lg-2">
+                    <span class="badge text-bg-primary shadow float-end">January 2022</span>                    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <div class="col-xxl-4 col-lg-4 col-md-12">
+          <div class="card shadow-lg border-0">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-xxl-10 col-lg-10">
+                  <h6 class="fw-bold">C# Fundamentals</h6>
+                </div>
+                <div class="col-xxl-2 col-lg-2">
+                    <span class="badge text-bg-primary shadow float-end">May 2022</span>                    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <div class="col-xxl-4 col-lg-4 col-md-12">
+          <div class="card shadow-lg border-0">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-xxl-10 col-lg-10">
+                  <h6 class="fw-bold">Bootstrap - Jquery</h6>
+                </div>
+                <div class="col-xxl-2 col-lg-2">
+                    <span class="badge text-bg-primary shadow float-end">August 2022</span>                    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <div class="col-xxl-4 col-lg-4 col-md-12">
+          <div class="card shadow-lg border-0">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-xxl-10 col-lg-10">
+                  <h6 class="fw-bold">SQL Server database</h6>
+                </div>
+                <div class="col-xxl-2 col-lg-2">
+                    <span class="badge text-bg-primary shadow float-end">November 2022</span>                    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <div class="col-xxl-4 col-lg-4 col-md-12">
+          <div class="card shadow-lg border-0">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-xxl-10 col-lg-10">
+                  <h6 class="fw-bold">Architecture Patterns</h6>
+                </div>
+                <div class="col-xxl-2 col-lg-2">
+                    <span class="badge text-bg-primary shadow float-end">January 2023</span>                    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <div class="col-xxl-4 col-lg-4 col-md-12">
+          <div class="card shadow-lg border-0">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-xxl-10 col-lg-10">
+                  <h6 class="fw-bold">Razor</h6>
+                </div>
+                <div class="col-xxl-2 col-lg-2">
+                    <span class="badge text-bg-primary shadow float-end">February 2023</span>                    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <div class="col-xxl-4 col-lg-4 col-md-12">
+          <div class="card shadow-lg border-0">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-xxl-10 col-lg-10">
+                  <h6 class="fw-bold">Web Security</h6>
+                </div>
+                <div class="col-xxl-2 col-lg-2">
+                    <span class="badge text-bg-primary shadow float-end">April 2023</span>                    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <div class="col-xxl-4 col-lg-4 col-md-12">
+          <div class="card shadow-lg border-0">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-xxl-10 col-lg-10">
+                  <h6 class="fw-bold">Json - Xml</h6>
+                </div>
+                <div class="col-xxl-2 col-lg-2">
+                    <span class="badge text-bg-primary shadow float-end">May 2023</span>                    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <div class="col-xxl-4 col-lg-4 col-md-12">
+          <div class="card shadow-lg border-0">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-xxl-10 col-lg-10">
+                  <h6 class="fw-bold">Web Services</h6>
+                </div>
+                <div class="col-xxl-2 col-lg-2">
+                    <span class="badge text-bg-primary shadow float-end">June 2023</span>                    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xxl-4 col-lg-4 col-md-12">
+          <div class="card shadow-lg border-0">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-xxl-10 col-lg-10">
+                  <h6 class="fw-bold">React</h6>
+                </div>
+                <div class="col-xxl-2 col-lg-2">
+                    <span class="badge text-bg-primary shadow float-end">September 2023</span>                    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xxl-4 col-lg-4 col-md-12">
+          <div class="card shadow-lg border-0">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-xxl-10 col-lg-10">
+                  <h6 class="fw-bold">Flutter</h6>
+                </div>
+                <div class="col-xxl-2 col-lg-2">
+                    <span class="badge text-bg-primary shadow float-end">En Curso</span>                    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+  <script src="./scripts.js"></script>
+  <script src="./bootstrap-js/bootstrap.min.js"></script>
+</body>
+</html>
